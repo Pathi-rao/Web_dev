@@ -1,0 +1,19 @@
+//  While is normal while like in python
+let value = 10
+
+while (value > 0){
+    console.log('Value is ' + value);
+    value--
+    if (value == 0){
+        console.log('End of While loop');
+    }
+}
+
+//  do while --> do something while somthing is true
+
+let money = 10
+
+do{
+    console.log('Your total money is ' + money);
+    money--
+} while (money != 0)
