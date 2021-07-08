@@ -26,5 +26,17 @@ greet('Susssuan')
 
 const person = {
     name:'john',
-    lastname:'abraham'
+    lastname:'abraham',
+    age:40,
+    education: false,
+    married: true,
+    greeting: function(){
+        console.log('hello humans')
+    },
 }
+
+console.log(person.name);
+
+// these following two are diff.
+console.log(person.greeting);
+person.greeting()
