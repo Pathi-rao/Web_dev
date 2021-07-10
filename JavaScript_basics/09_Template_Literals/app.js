@@ -12,9 +12,7 @@ const sentence = `Hey it's ${name}. His age is ${age}`
 console.log(sentence);
 
 
-
 // #############++++++++++++++#############
-
 
 
 // Array properties and Methods
@@ -33,7 +31,7 @@ let operators = ['Ash', 'Zofia', 'Finka', 'Twitch', 'Hibana', 'Dokkaebi', 'Amaru
 // #############++++++++++++++#############
 
 
-// For loops using arrays
+// for loops using arrays
 
 const attacker = ', is an attacker'
 
