@@ -28,4 +28,8 @@ But, when assigning non-primitive data type value to a variable, it is done by r
 will affect the references. 
 
 That's why at the start the values didn't change because we using primitive data type but in the 
-second example, we used dictionary and thus all the reference values are changed.*/
+second example, we used dictionary and thus all the reference values are changed.
+
+
+Ofcourse we can avoid it by using {...person_1} in line15  
+The ... referes to "Pass me the value/give me a copy of the object and not the reference  "*/
