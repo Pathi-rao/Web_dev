@@ -93,6 +93,6 @@ const new_people = [
 ]
 
 const persons = new_people.find(function (people) {
-    return people.id == 1
+    return people.id === 1
 })
 console.log(persons);
