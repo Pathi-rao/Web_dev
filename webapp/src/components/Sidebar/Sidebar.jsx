@@ -6,28 +6,35 @@ class Sidebar extends React.Component{
     render(){
         return (
             <div className="sidebar">
+
                 <div>
                 <Link to={"/"}>
                     Home
                 </Link>
                 </div>
+
                 <div>
                     <Link to={"/about"}>
                     About
                     </Link>
                 </div>
+
                 <div>
-                    Address
+                    Input1
                 </div>
+
                 <div>
-                    Orders
+                    Input2
                 </div>
+
                 <div>
-                    Wishlist
+                    Input3
                 </div>
+
                 <div>
-                    Profile
+                    Input4
                 </div>
+
             </div>
         )
     }
