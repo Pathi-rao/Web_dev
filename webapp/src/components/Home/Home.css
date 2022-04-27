@@ -1,0 +1,27 @@
+.home {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+}
+
+.uploadSection {
+  display: flex;
+}
+.uploadSection .btn {
+  border-radius: 20px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: solid 1px black;
+}
+
+.uploadSection .btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.uploadSection .form-control {
+  border-radius: 20px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  /* border: solid 1px black; */
+}
