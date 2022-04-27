@@ -1,8 +1,9 @@
 import React from "react"
-import {Container} from "react-bootstrap"
+import {Container, NavDropdown} from "react-bootstrap"
 import {Navbar,Nav} from "react-bootstrap"
 import {withRouter} from "react-router-dom"
 import navbar_logo from "./dog_pic.jpg"
+import './Navbar.css'
 
 
 class NavBar extends React.Component{
@@ -14,8 +15,13 @@ class NavBar extends React.Component{
             <Navbar.Brand href="/"></Navbar.Brand>
             <Nav className="mr-auto">
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/navbar_one">Navbar1</Nav.Link>
-              <Nav.Link href="/navbar_two">Navbar2</Nav.Link>
+              <Nav.Link href="/navbar_one">Debug</Nav.Link>
+              <NavDropdown title="Gitlab" id="basic-nav-dropdown">
+          <NavDropdown.Item href="#action/3.1">MTU</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.2">tf2seg</NavDropdown.Item>
+          <NavDropdown.Item href="#action/3.3">Gitlab</NavDropdown.Item>
+
+        </NavDropdown>
             </Nav>
             </Container>
           </Navbar>

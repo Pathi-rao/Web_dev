@@ -15,24 +15,20 @@ class Sidebar extends React.Component{
 
                 <div>
                     <Link to={"/about"}>
-                    About
+                    Video player
                     </Link>
                 </div>
 
                 <div>
-                    Input1
+                    Masking
                 </div>
 
                 <div>
-                    Input2
+                    Execution
                 </div>
 
                 <div>
-                    Input3
-                </div>
-
-                <div>
-                    Input4
+                    Result
                 </div>
 
             </div>
